@@ -26,7 +26,7 @@ public class JdbcExecuteQuery01 {
 		
 		while(r1.next()) {
 			
-			System.out.println(r1.getInt(2) + " - " + r1.getString(1));
+			System.out.println(r1.getInt(1) + " - " + r1.getString(2));
 		}
 		
 		String q2 =  "SELECT * "
